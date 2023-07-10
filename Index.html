@@ -8,8 +8,8 @@
       <link rel="stylesheet" href="style.css" />
    </head>
    <body>
-      <div class="warning-content">
-         <h1>WE WILL TAKE OFF SOON...</h1>
+      <div class="warning-content construction-page">
+         <h1 class="main-title">WE WILL TAKE OFF SOON...</h1>
          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             width="100.001px" height="70px" viewBox="0 0 100 68">
             <g id="large">
@@ -71,73 +71,133 @@
             Fill this form to be notified.
          </p>
          <br>
-         <button type="button" class="CAS_button" data-toggle="modal" data-target="#exampleModal">
-         Contact Us
-         </button>
-         <!-- Modal -->
-         <div class="inquiry-construction modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h2 class="modal-title text-left" id="exampleModalLabel">Application Form</h2>
-                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                     <span aria-hidden="true">&times;</span>
-                     </button>
-                  </div>
-                  <div class="modal-body">
-                     <!-- <iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=-APD9ORsKU-I_LXb86h-_Iwerxe8vvdBtVJHhOsQ5p1UOEY0RUJPNEVGMVEzSE9ZODFTRDNWNUVLSS4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe> -->
-
-                     <form action="https://formsubmit.co/patelvibha4495@gmail.com" method="POST">
-                     
-                      <div class="form-group">
-      <label for="organisation_name">Organisation :</label>
-      <input type="text" class="form-control" name="organisation_name" required>
-    </div>
-    <div class="form-group">
-    <label for="assessmenttype">Assessment type :</label>
-    <select class="form-select" aria-label="Default select example">
+        
+<!-- Button trigger modal -->
+<button type="button" class="CAS_button dark" data-toggle="modal" data-target="#exampleModal">
+   Contact Us
+ </button>
  
-      <option selected>Open this select menu</option>
-      <option value="1">Cyber Essential</option>
-      <option value="2">Cyber Essential Plus</option>
-      <option value="3">Cyber Assurance Level 1</option>
-      <option value="3">Cyber Assurance Level 2</option>
-    </select>
-  </div>
-    <div class="form-group">
-      <label for="name">Name :</label>
-      <input type="text" class="form-control" name="name" required>
-    </div>
-    <div class="form-group">
-      <label for="description">Description :</label>
-      <textarea type="text" class="form-control" name="description" required>
-    </div>
-    <div class="form-group">
-      <label for="email">Email address :</label>
-      <input type="email" class="form-control" name="email">
-    </div>
-    <div class="form-group">
-      <label for="address">Address :</label>
-      <input type="text" class="form-control" name="address">
-    </div>   
-    <div class="form-group">
-      <label for="income">Country :</label>
-      <input type="number" class="form-control" name="income">
-    </div>
-  
-      <button type="reset" class="btn">Reset</button>
-      <button type="submit" class="btn" style="float:right">Submit</button>
-                      <button type="submit">Send</button>
-                 </form>
+ <!-- Modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog" role="document">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title text-primary" id="exampleModalLabel">Application Form</h1>
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true">&times;</span>
+         </button>
+       </div>
+       <div class="modal-body">
+        
+         <form action="https://formsubmit.co/patelvibha4495@gmail.com" method="POST">
 
-                  </div>
-                  <div class="modal-footer">
-                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- Modal -->
+            <div class="form-group">
+               <label for="organisation_name">Organisation :</label>
+               <input type="text" class="form-control" name="organisation_name" required>
+             </div>
+            
+            <div class="form-group">
+             <label for="assessmenttype">Assessment type :</label>
+             <select class="form-select" aria-label="Default select example">          
+               <option selected>Choose Option </option>
+               <option value="Cyber Essential">Cyber Essential</option>
+               <option value="Cyber Essential plus">Cyber Essential Plus</option>
+               <option value="Cyber Essential level 1">Cyber Assurance Level 1</option>
+               <option value="Cyber Essential level 2">Cyber Assurance Level 2</option>
+             </select>
+           </div>
+
+           
+           <div class="form-group">
+            <label for="name">Name :</label>
+            <input type="text" class="form-control" name="name" required>
+          </div>
+
+          
+          <div class="form-group">
+            <label for="description">Description :</label>
+            <textarea type="text" class="form-control" name="description" required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="user_name">User Name :</label>
+            <input type="text" class="form-control" name="user_name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email :</label>
+            <input type="email" class="form-control" name="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="organisation_size">Organisaion Size :</label>
+            <select class="form-select" aria-label="Default select example">          
+              <option selected>Choose Option</option>
+              <option value="Micro (0-9 Employees)">Micro (0-9 Employees)</option>
+              <option value="Small (10-49 Employees)">Small (10-49 Employees)</option>
+              <option value="Medium (50-249 Employees)">Medium (50-249 Employees)</option>
+              <option value="Large (250+ Employees)">Large (250+ Employees)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="contact_name">Contact Name :</label>
+            <input type="text" class="form-control" name="contact_name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="phone_number">Phone Number :</label>
+            <input type="text" class="form-control" name="phone_number" pattern="[0-9]{10}" required>
+          </div>
+
+
+          <div class="form-group">
+            <label for="job_title">Job Title :</label>
+            <input type="text" class="form-control" name="job_title" required>
+          </div>
+
+
+          <div class="form-group">
+            <label for="first_address">first Line of Address :</label>
+            <input type="text" class="form-control" name="first_address" required>
+          </div>
+
+          <div class="form-group">
+            <label for="second_address">Second line of Address :</label>
+            <input type="text" class="form-control" name="second_address" required>
+          </div>
+
+          <div class="form-group">
+            <label for="city">City :</label>
+            <input type="text" class="form-control" name="city" required>
+          </div>
+
+          <div class="form-group">
+            <label for="county">County :</label>
+            <input type="text" class="form-control" name="county" required>
+          </div>
+
+          <div class="form-group">
+            <label for="postcode">Post Code :</label>
+            <input type="text" class="form-control" name="postcode" required>
+          </div>
+
+          <div class="form-group">
+            <label for="country">Country :</label>
+            <input type="text" class="form-control" name="country" required>
+          </div>
+          <button type="submit" class="CAS_button light">Submit</button>
+
+
+
+         </form>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+     </div>
+   </div>
+ </div>
       </div>
    </body>
    <!-- jQuery library -->
