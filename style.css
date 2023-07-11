@@ -66,7 +66,7 @@ form .CAS_button.light, .CAS_button.light {
  text-align: left;
  width: 60%;
 }
-.cyber-services-form h2{text-transform: uppercase; padding-bottom: 0px; text-align: center;}
+.cyber-services-form h2{text-transform: uppercase; padding-bottom: 0px; text-align: center;font-size: 24px;}
 form input {
   border:1px solid #eee;
   border-radius:0 !important;
@@ -158,7 +158,7 @@ input, optgroup, select, textarea, .form-control{
 .float-right{float: right;}
 .header-logo{
   color: white;
-  font-size: 20px;
+  font-size: 24px;
   text-transform: uppercase;
   font-weight: 600;
   font-family: 'Raleway';
