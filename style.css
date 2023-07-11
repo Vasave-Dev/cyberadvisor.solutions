@@ -1,7 +1,7 @@
 html,
 body {
-  height: 100%;
-  background-color: #285da2;
+  /* height: 100%; */
+  background-color: white;
 }
 
 .main-title {
@@ -17,10 +17,10 @@ p {
 }
 
 .warning-content {
-  position: absolute;
-  top: 25%;
+  /* position: absolute; */
+  /* top: 25%; */
   width: 100%;
-  height: 300px;
+  /* height: 300px; */
   text-align: center;
   margin: 0;
 }
@@ -40,13 +40,14 @@ p {
 form .CAS_button.light, .CAS_button.light {
   padding: 10px 20px;
   border-radius: 0;
-  background: blue;
+  background: white;
   /* border: none; */
   font-family: "Raleway";
-  font-weight: 300;
+  font-weight: 600;
   border: 1px solid #edebebf7;
-  color: white;
+  color: #285da2;
   margin-top: 15px;
+
 }
 .CAS_button:hover{
   font-weight: 600;
@@ -58,22 +59,22 @@ form .CAS_button.light, .CAS_button.light {
 }
 
 .text-white{color: white;}
-form {
+.cyber-services-form {
 
   padding:20px;
   margin:0 auto;
-  background:#ffffff59; 
+  background:#285DA2; 
  text-align: left;
- width: 80%;
+ width: 60%;
 }
-
+.cyber-services-form h2{text-transform: uppercase; padding-bottom: 15px; text-align: center;}
 form input {
   border:1px solid #eee;
   border-radius:0 !important;
   padding:5px 8px;
   color:#444;
 }
-
+.form-group label { color: white; font-family: "Raleway", sans-serif !important;font-weight: 300;}
 .pull-right {
   float:right;
 }
@@ -94,3 +95,5 @@ input, optgroup, select, textarea, .form-control{
 .construction-page  .modal-header .close {
   margin-top: 18px;
 }
+.cyber-logo img{width: 80%;}
+.align-center{text-align: center;}
