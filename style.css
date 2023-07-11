@@ -59,7 +59,11 @@ form .CAS_button.light, .CAS_button.light {
 }
 
 .text-white{color: white;}
+<<<<<<< HEAD
 .cyber-services-form {
+=======
+form {
+>>>>>>> 52045878abb99924ae62c51ad40531f416ab00de
 
   padding:20px;
   margin:0 auto;
@@ -95,5 +99,8 @@ input, optgroup, select, textarea, .form-control{
 .construction-page  .modal-header .close {
   margin-top: 18px;
 }
+<<<<<<< HEAD
 .cyber-logo img{width: 80%;}
 .align-center{text-align: center;}
+=======
+>>>>>>> 52045878abb99924ae62c51ad40531f416ab00de
