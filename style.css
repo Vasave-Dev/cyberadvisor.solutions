@@ -56,12 +56,15 @@ form .CAS_button.light, .CAS_button.light {
   width: 700px;
   margin: 30px auto;
 }
+
+.text-white{color: white;}
 form {
 
   padding:20px;
   margin:0 auto;
   background:#ffffff59; 
  text-align: left;
+ width: 60%;
 }
 
 form input {
