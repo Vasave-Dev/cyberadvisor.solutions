@@ -142,3 +142,25 @@ input, optgroup, select, textarea, .form-control{
  .linkedin{background:#0072b1;}
  .instagram{background:radial-gradient(circle farthest-corner at 35% 90%,#fec564,transparent 50%),radial-gradient(circle farthest-corner at 0 140%,#fec564,transparent 50%),radial-gradient(ellipse farthest-corner at 0 -25%,#5258cf,transparent 50%),radial-gradient(ellipse farthest-corner at 20% -50%,#5258cf,transparent 50%),radial-gradient(ellipse farthest-corner at 100% 0,#893dc2,transparent 50%),radial-gradient(ellipse farthest-corner at 60% -20%,#893dc2,transparent 50%),radial-gradient(ellipse farthest-corner at 100% 100%,#d9317a,transparent),linear-gradient(#6559ca,#bc318f 30%,#e33f5f 50%,#f77638 70%,#fec66d 100%);}
 /* ---------------------------------------- */
+
+.header
+{
+  background-color: #285DA2;
+}
+.top-header{border-bottom:1px solid #21252914;padding:12px 0;margin-bottom:8px;}
+.top-header .top-header .contact-info{line-height:30px;}
+.top-header .Email,.top-header .Phone{padding-right:30px;font-size:14px;color: white;position:relative;line-height: 30px;}
+.top-header .Email::after{content:"";border-right:1px solid var(--color-default);position:absolute;right:10px;height:75%;margin:0;top:50%;transform:translateY(-50%);}
+.top-header .Email i,.top-header .Phone i{padding-right:5px;color: white;font-size:14px;}
+.header .social-links a{display:flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:50%;font-size:14px;color: white;margin-right:10px;transition:0.3s;}
+.header .social-links a:hover{transform:scale(1.1);}
+.float-left{float: left;}
+.float-right{float: right;}
+.header-logo{
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: 'Raleway';
+}
+.justify-content-end{justify-content: end;}
